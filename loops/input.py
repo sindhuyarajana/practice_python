@@ -12,10 +12,7 @@
 #     total += i
 
 # print(total)
-count = 0
-number = int(input("enter a number: "))
-for i in range(1, number + 1):
-    if i % 3 == 0:
-        count += 1
 
-print(count)
+number = int(input("enter a number: "))
+for i in range(5, number + 1, 5):
+    print(i)
