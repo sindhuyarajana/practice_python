@@ -27,10 +27,10 @@
 #         print(j, end="")
 #     print()
 
-for i in range(1, 6):
-    for j in range(i):
-        print(i, end="")
-    print()
+# for i in range(1, 6):
+#     for j in range(i):
+#         print(i, end="")
+#     print()
 
 # Rule of thumb for pattern questions
 
@@ -39,3 +39,8 @@ for i in range(1, 6):
 # What changes every row? → Usually i (outer loop).
 # How many times should it be printed? → Controlled by the inner loop.
 # What should I print? → Sometimes i, sometimes j, sometimes "*", depending on the pattern.
+# letter = "ABCDE"
+for i in range(1, 6):
+    for j in range(i):
+        print(chr(65 + j), end="")
+    print()
