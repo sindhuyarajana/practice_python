@@ -40,7 +40,15 @@
 # How many times should it be printed? → Controlled by the inner loop.
 # What should I print? → Sometimes i, sometimes j, sometimes "*", depending on the pattern.
 # letter = "ABCDE"
-for i in range(1, 6):
+# for i in range(1, 6):
+#     for j in range(i):
+#         print(chr(65 + j), end="")
+#     print()
+
+rows = 5
+for i in range(1, rows + 1):
+    for j in range(rows - i):
+        print(" ", end="")
     for j in range(i):
-        print(chr(65 + j), end="")
+        print("*", end="")
     print()
