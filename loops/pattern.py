@@ -68,7 +68,17 @@
 #         print(chr(65 + j), end="")
 #     print()
 
-for i in range(1,6):
-    for j in range(i):
-        print(chr(64 + i),end="")
-    print()
+# for i in range(1,6):
+#     for j in range(i):
+#         print(chr(64 + i),end="")
+#     print()
+
+number = 987654
+count = 0
+
+while number > 0:
+    number = number // 10
+    count += 1
+
+print(count)
+    
