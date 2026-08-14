@@ -13,10 +13,20 @@
 
 # main()
 
+# def main():
+#     try:
+#         numbers = [10, 20, 30]
+#         print(numbers[5])
+#     except IndexError:
+#         print("Give a Valid Index")
+# main()
+
+# x = int("hello")
+
 def main():
     try:
-        numbers = [10, 20, 30]
-        print(numbers[5])
-    except IndexError:
-        print("Give a Valid Index")
+        x = int(input("Enter a number: "))
+        print(10/x)
+    except ZeroDivisionError:
+        print("Enter a Valid Ineger")
 main()
