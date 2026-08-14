@@ -28,5 +28,6 @@ def main():
         x = int(input("Enter a number: "))
         print(10/x)
     except ZeroDivisionError:
-        print("Enter a Valid Ineger")
+        print("Cannot divide by zero")
 main()
+
