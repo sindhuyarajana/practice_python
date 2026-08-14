@@ -73,12 +73,18 @@
 #         print(chr(64 + i),end="")
 #     print()
 
-number = 987654
-count = 0
+# number = 987654
+# count = 0
 
-while number > 0:
-    number = number // 10
-    count += 1
+# while number > 0:
+#     number = number // 10
+#     count += 1
 
-print(count)
+# print(count)
+
+num = 12345
+for i in range(num):
+    number = reversed(i)
+    print(number)
+
     
